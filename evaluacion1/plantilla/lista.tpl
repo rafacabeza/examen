@@ -20,8 +20,7 @@
                     <td>{$fila.id}</td>
                     <td>{$fila.codigo}</td>
                     <td>{$fila.titulo}</td>
-                    <td>{$fila.fechaCurriculo}</td>
-                    <td>{$fila.fechaCurriculo}</td>
+                    <td>{$fila.fecha}</td>
                     <td><a href="?modulo=modificarestudio&id={$fila.id}">modificar</a></td>
             </tr>
             {/foreach}

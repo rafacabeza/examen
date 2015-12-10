@@ -17,7 +17,7 @@ class EstudioModelo {
     }
     public function getAll()
     {
-        $sql='SELECT * FROM estudio';
+        $sql="SELECT *, DATE_FORMAT(fechaCurriculo, '%m-%d-%Y') as fecha FROM estudio";
 
         $resultado = $this->_db->query($sql);
 
